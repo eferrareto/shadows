@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/image" android:drawable="@drawable/pexels"/>
+    <item android:id="@+id/shadows">
+        <shape>
+            <gradient android:angle="270"
+                android:startColor="#9E000000"
+                android:centerColor="@android:color/transparent"
+                android:endColor="#90FFFFFF"/>
+        </shape>
+
+    </item>
+
+</layer-list>
